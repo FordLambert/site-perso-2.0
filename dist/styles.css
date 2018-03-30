@@ -3,7 +3,7 @@ body h1, body h2 {
 
 header {
   background-image: url("../resources/pictures/coffeBanner.png");
-  height: 40vh; }
+  height: 30vh; }
   header .header-titles {
     height: 100%; }
   header .colin-portrait {
@@ -44,7 +44,7 @@ nav {
   background-color: #1A3852; }
 
 .intro-section {
-  height: 60vh; }
+  height: 70vh; }
 
 .projects-section, .skills-section {
   height: 100vh; }
