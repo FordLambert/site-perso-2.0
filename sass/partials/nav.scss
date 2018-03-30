@@ -1,12 +1,11 @@
 nav {
-    height: 10vh;
+    height: 25%;
     background-color: $dark-blue;
     border: 1px solid $black;
     box-shadow: 4px 4px 6px $black;
 
     a {
         color: $orange;
-        z-index: 2;
         text-transform: uppercase;
     }
     
