@@ -1,5 +1,9 @@
-body h1, body h2 {
+body h1, body h2, body h3 {
   color: #E9602A; }
+
+body a {
+  color: #E9602A;
+  text-decoration: none; }
 
 header {
   background-image: url("../resources/pictures/coffeBanner.png");
@@ -38,14 +42,20 @@ nav {
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease; }
 
-.intro-section, .projects-section {
-  background-color: #457193; }
+.intro-section {
+  background-color: #457193;
+  height: 70vh; }
+  .intro-section .intro-text {
+    margin-top: 8vh; }
 
 .skills-section {
+  height: 100vh;
   background-color: #1A3852; }
+  .skills-section .skills {
+    margin-top: 8vh; }
 
-.intro-section {
-  height: 70vh; }
-
-.projects-section, .skills-section {
+.projects-section {
+  background-color: #457193;
   height: 100vh; }
+  .projects-section .projects {
+    margin-top: 8vh; }

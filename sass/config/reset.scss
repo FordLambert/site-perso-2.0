@@ -1,5 +1,10 @@
 body {
- h1, h2 {
-     color: $orange;
- }
+    h1, h2, h3 {
+        color: $orange;
+    }
+
+    a {
+        color: $orange;
+        text-decoration: none;
+    }
 }
