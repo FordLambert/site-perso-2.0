@@ -3,11 +3,39 @@ body h1, body h2 {
 
 header {
   background-image: url("../resources/pictures/coffeBanner.png");
-  height: 35vh; }
+  height: 40vh; }
   header .header-titles {
     height: 100%; }
   header .colin-portrait {
     border-radius: 50%; }
+
+nav {
+  height: 10vh;
+  background-color: #1A3852;
+  border: 1px solid black;
+  box-shadow: 4px 4px 6px black; }
+  nav a {
+    color: #E9602A;
+    z-index: 2;
+    text-transform: uppercase; }
+  nav a:hover {
+    color: #E9602A;
+    text-decoration: none; }
+  nav .link a:before, nav .link a:after {
+    content: '';
+    border-bottom: solid 1px #E9602A;
+    position: absolute;
+    bottom: 0;
+    width: 0; }
+  nav .link a:before {
+    left: 0; }
+  nav .link a:after {
+    right: 0; }
+  nav .link a:hover:before, nav .link a:hover:after {
+    width: 50%; }
+  nav .link a:before, nav .link a:after {
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease; }
 
 .intro-section, .projects-section {
   background-color: #457193; }
@@ -16,7 +44,7 @@ header {
   background-color: #1A3852; }
 
 .intro-section {
-  height: 65vh; }
+  height: 60vh; }
 
 .projects-section, .skills-section {
   height: 100vh; }

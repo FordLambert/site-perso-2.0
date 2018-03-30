@@ -1,0 +1,37 @@
+nav {
+    height: 10vh;
+    background-color: $dark-blue;
+    border: 1px solid $black;
+    box-shadow: 4px 4px 6px $black;
+
+    a {
+        color: $orange;
+        z-index: 2;
+        text-transform: uppercase;
+    }
+    
+    a:hover {
+        color: $orange;
+        text-decoration: none;
+    }
+
+    .link a:before, .link a:after {
+        content: '';
+        border-bottom: solid 1px $orange;
+        position: absolute;
+        bottom: 0;
+        width: 0;
+    }
+    
+    .link a:before { left: 0; }
+    .link a:after { right: 0; }
+    
+    .link a:hover:before, .link a:hover:after {
+        width: 50%;
+    }
+    
+    .link a:before, .link a:after {
+        -webkit-transition: all 0.2s ease;
+                transition: all 0.2s ease;
+    }
+}
