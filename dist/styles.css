@@ -1,0 +1,22 @@
+body h1, body h2 {
+  color: #E9602A; }
+
+header {
+  background-image: url("../resources/pictures/coffeBanner.png");
+  height: 35vh; }
+  header .header-titles {
+    height: 100%; }
+  header .colin-portrait {
+    border-radius: 50%; }
+
+.intro-section, .projects-section {
+  background-color: #457193; }
+
+.skills-section {
+  background-color: #1A3852; }
+
+.intro-section {
+  height: 65vh; }
+
+.projects-section, .skills-section {
+  height: 100vh; }

@@ -1,0 +1,15 @@
+.intro-section, .projects-section {
+    background-color: $light-blue;
+}
+
+.skills-section {
+    background-color: $dark-blue
+}
+
+.intro-section {
+    height: 65vh;
+}
+
+.projects-section, .skills-section {
+    height: 100vh;
+}
