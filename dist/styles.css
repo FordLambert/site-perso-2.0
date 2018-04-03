@@ -2,13 +2,17 @@ body {
   font-family: 'Ubuntu', sans-serif; }
   body h1, body h2, body h3 {
     color: #E9602A; }
+  body p {
+    color: white; }
   body a {
     color: #E9602A;
     text-decoration: none; }
+  body a:hover {
+    color: #E9602A; }
 
 header {
   background-image: url("../resources/pictures/coffeBanner.png");
-  height: 30vh; }
+  height: 40vh; }
   header .header-titles {
     height: 75%; }
   header .colin-portrait {
@@ -22,10 +26,8 @@ nav {
   border: 1px solid black;
   box-shadow: 4px 4px 6px black; }
   nav a {
-    color: #E9602A;
     text-transform: uppercase; }
   nav a:hover {
-    color: #E9602A;
     text-decoration: none; }
   nav .link a:before, nav .link a:after {
     content: '';
@@ -43,11 +45,14 @@ nav {
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease; }
 
+h3 {
+  font-size: 2.5em; }
+
 .intro-section {
   background-color: #457193;
-  height: 70vh; }
+  height: 60vh; }
   .intro-section .intro-text {
-    margin-top: 8vh; }
+    font-size: 1.1em; }
 
 .skills-section {
   height: 100vh;
@@ -70,6 +75,3 @@ nav {
   height: 100vh; }
   .projects-section .projects {
     margin-top: 8vh; }
-
-h3 {
-  font-size: 2.5em; }

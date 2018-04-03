@@ -1,9 +1,13 @@
+h3 {
+    font-size: 2.5em;
+}
+
 .intro-section {
     background-color: $light-blue;
-    height: 70vh;
+    height: 60vh;
 
     .intro-text {
-        margin-top: 8vh;
+        font-size: 1.1em;
     }
 }
 
@@ -43,8 +47,4 @@
     .projects {
         margin-top: 8vh;
     }
-}
-
-h3 {
-    font-size: 2.5em;
 }

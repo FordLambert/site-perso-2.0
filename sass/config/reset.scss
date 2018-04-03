@@ -6,8 +6,16 @@ body {
         color: $orange;
     }
 
+    p {
+        color: $white;
+    }
+
     a {
         color: $orange;
         text-decoration: none;
+    }
+    
+    a:hover {
+        color: $orange;
     }
 }
