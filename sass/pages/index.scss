@@ -11,6 +11,24 @@
     height: 100vh;
     background-color: $dark-blue;
 
+    .skill-row {
+        margin-top: 10vh;
+    }
+
+    .skill-box {
+        img {
+            -webkit-transition: -webkit-transform 2.00s ease-in-out;
+                    transition:         transform 2.00s ease-in-out;
+        }
+    }
+
+    .skill-box:hover {
+        img {
+            -webkit-transform: rotateY(360deg);
+                    transform: rotatY(360deg);
+        }
+    }
+
     .skills {
         margin-top: 8vh;
     }
@@ -23,4 +41,8 @@
     .projects {
         margin-top: 8vh;
     }
+}
+
+h3 {
+    font-size: 2.5em;
 }
