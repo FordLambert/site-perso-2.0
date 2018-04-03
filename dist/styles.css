@@ -54,15 +54,14 @@ nav {
   background-color: #1A3852; }
   .skills-section .skill-row {
     margin-top: 10vh; }
-  .skills-section .skill-box img {
-    -webkit-transition: -webkit-transform 1.00s ease-in-out;
-    transition: transform 1.00s ease-in-out; }
+  .skills-section .skill-box {
+    display: flex;
+    align-items: center; }
+    .skills-section .skill-box img {
+      -webkit-transition: -webkit-transform 1.00s ease-in-out;
+      transition: transform 1.00s ease-in-out; }
   .skills-section .skill-box:hover img {
-    transform: rotateY(180deg) scaleX(-1);
-    /*-webkit-transform: rotateY(180deg);
-                    transform: rotatY(180deg);
-            -webkit-transform: scaleX(-1);
-            */ }
+    transform: rotateY(180deg) scaleX(-1); }
   .skills-section .skills {
     margin-top: 8vh; }
 
