@@ -17,15 +17,14 @@
 
     .skill-box {
         img {
-            -webkit-transition: -webkit-transform 2.00s ease-in-out;
-                    transition:         transform 2.00s ease-in-out;
+            -webkit-transition: -webkit-transform 1.00s ease-in-out;
+                    transition:         transform 1.00s ease-in-out;
         }
     }
 
     .skill-box:hover {
         img {
-            -webkit-transform: rotateY(360deg);
-                    transform: rotatY(360deg);
+            transform: rotateY(180deg) scaleX(-1);
         }
     }
 
