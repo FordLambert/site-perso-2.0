@@ -79,15 +79,18 @@ h3 {
     margin-top: 8vh; }
   .projects-section .projects-box {
     height: 60%; }
+    .projects-section .projects-box .project-button {
+      height: 10vh; }
     .projects-section .projects-box .btn {
       background-color: #E9602A;
-      border: 1px, solid, black;
-      border-radius: 10%;
-      height: 10vh;
+      border: 1px solid black;
+      height: 100%;
       width: 100%;
       color: white;
       -webkit-transition: -webkit-transform 1.00s ease-in-out;
       transition: transform 1.00s ease-in-out; }
+      .projects-section .projects-box .btn p {
+        margin: 0; }
     .projects-section .projects-box .project-button:hover .front {
       transform: rotateY(180deg); }
     .projects-section .projects-box .project-button:hover .back {

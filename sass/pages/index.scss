@@ -55,17 +55,22 @@ h3 {
     .projects-box {
         height: 60%;
 
+        .project-button {
+            height: 10vh;
+        }
+
         .btn {
             background-color: $orange;
-            border: 1px, solid, $black;
-            border-radius: 10%;
-            height: 10vh;
+            border: 1px solid $black;
+            height: 100%;
             width: 100%;
             color: $white;
-
             -webkit-transition: -webkit-transform 1.00s ease-in-out;
                     transition:         transform 1.00s ease-in-out;
-            
+
+            p {
+                margin: 0;
+            }
         }
 
         .project-button:hover {
