@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Les Films de Plein Air</title>
+		<meta name="description" content="Venez mélanger plein air et cinéma au festival de films en plein air de Paris !">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="pictures/logo.png" />
+      	<link rel="apple-touch-icon" href="pictures/logo.png"/>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<!-- Header section with navbar -->
+			<header class="row">
+				<div class="col-xs-12 text-center index-header-box">
+					<nav class="navbar navbar-inverse navbar-fixed-top navbar-center" data-spy="affix" data-offset-top="200">
+					  	<div class="navbar-header">
+						  	<a href="index.html"><img src="pictures/logo.png" alt="logo-festival" class="main-logo pull-left"></a>   
+						    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						    	<span class="icon-bar"></span>
+						    	<span class="icon-bar"></span>
+						    	<span class="icon-bar"></span>
+						    </button>
+						</div>
+					  	<div class="collapse navbar-collapse pull-right">
+						    <ul class="nav navbar-nav">
+						    	<li><a href="index.html">Accueil</a></li>
+						    	<li><a href="festival.html">Le Festival</a></li>
+						    	<li><a href="movies.html">Programmation</a></li>
+						    	<li><a href="news.html">Actualités</a></li>
+						    	<li><a href="contact.html">Contact</a></li>
+						    </ul>
+					  	</div>
+					</nav>
+					<div class="title-box">
+						<h1>Les Films de Plein Air</h1>
+						<h2>Festival de cinéma à Paris du 5 au 8 Août 2017</h2>
+					</div>
+				</div>
+			</header>
+			<!--First section - About the festival-->
+			<section class="row festival-section">
+				<div class="col-xs-12 text-center">
+					<span class="glyphicon glyphicon-menu-down img-circle"></span>
+					<h3>Venez découvrir le Festival</h3>
+					<div class="row columns">
+						<div class="col-md-offset-2 col-md-2 col-xs-12 column">
+							<img src="pictures/parc.jpg" alt="parc-picture" class="img-circle">
+							<h4>Nature</h4>
+							<p>Le parc Monceau offre un écrin de verdure unique qui sublime les films et rafraichit ses visiteurs</p>
+						</div>
+						<div class="col-md-2 col-xs-12 column">
+							<img src="pictures/projector.jpg" alt="projector-picture" class="img-circle">
+							<h4>Cinéma</h4>
+							<p>Découvrez ou redécouvrez de grands films d'auteurs, classique du cinéma ou non</p>
+						</div>
+						<div class="col-md-2 col-xs-12 column">
+							<img src="pictures/food.jpg" alt="food-picture" class="img-circle">
+							<h4>Gastronomie</h4>
+							<p>Venez déguster les plats écologiques et responsables proposés sur place par Green Tree Food</p>
+						</div>
+						<div class="col-md-2 col-xs-12 column">
+							<img src="pictures/note.jpg" alt="note-picture" class="img-circle">
+							<h4>Débat</h4>
+							<p>Vous avez aimé le film&nbsp;? Pas du tout&nbsp;? Parlez en avec votre voisin&nbsp;!</p>
+						</div>
+					</div>
+					<a href="festival.html"><span class="btn btn-primary">Découvrir le festival</span></a>
+				</div>
+			</section>
+			<!--Second section - About the movies-->
+			<section class="row movies-section">
+				<!-- Three pictures grid appears on md and larger only-->
+				<div class="col-md-12 four-views-section text-center hidden-sm hidden-xs">
+					<div>
+						<a href="movies.html"><img src="pictures/polisse.jpg" class="picture-poster" alt="Polisse-poster"></a>
+						<h4>Polisse</h4>
+						<p class="poster-description">Film dramatique français écrit et réalisé par Maïwenn, sorti en 2011</p>
+					</div>
+					<div>
+						<h4>Les Affranchis</h4>
+						<p class="poster-description"> Film de gangsters américain réalisé par Martin Scorsese, sorti en 1990</p>
+						<a href="movies.html#day2"><img src="pictures/affranchis.jpg" class="picture-poster" alt="affranchis-poster"></a>
+					</div>
+					<div>
+						<a href="movies.html#day4"><img src="pictures/granTorino.jpg" class="picture-poster" alt="granTorino-poster"></a>
+						<h4>Gran Torino</h4>
+						<p class="poster-description">Film américain réalisé par Clint Eastwood et sorti en 2008</p>
+					</div>
+				</div>
+				<!--Carousel appear on xs and sm only-->
+				<div class="visible-sm visible-xs carousel-section col-xs-offset-1 col-xs-10">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					  	<!-- Wrapper for slides -->
+					  	<div class="carousel-inner">
+						    <div class="item active">
+						      <a href="movies.html"><img src="pictures/polisse.jpg" alt="Polisse-poster" class="carousel-picture"></a>
+						    </div>
+
+						    <div class="item">
+						      <a href="movies.html#day2"><img src="pictures/affranchis.jpg" alt="affranchis-poster" class="carousel-picture"></a>
+						    </div>
+
+						    <div class="item">
+						      <a href="movies.html#day3"><img src="pictures/granTorino.jpg" alt="granTorino-poster" class="carousel-picture"></a>
+						    </div>
+					  	</div>
+					  	<!-- Left and right controls -->
+					  	<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					    	<span class="glyphicon glyphicon-chevron-left"></span>
+					    	<span class="sr-only">Previous</span>
+					  	</a>
+					  	<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					    	<span class="glyphicon glyphicon-chevron-right"></span>
+					    	<span class="sr-only">Next</span>
+					  	</a>
+					</div>
+				</div>
+			</section>
+			<!--Third section - About the news-->
+			<section class="row blog-section">
+				<div class="col-xs-offset-1 col-xs-10 text-center">
+					<h3>Actualités du festival</h3>
+					<h4>Les dernières nouvelles de l'organisation et de la programmation&nbsp;!</h4>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-3 text-center">
+							<a href="article-type.html"><img src="pictures/parc1.jpg" alt="parc"></a>
+							<a href="article-type.html"><h5>Le festival se prépare</h5></a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet,
+							sapien quis laoreet suscipit, sapien augue molestie velit, ut feugiat est metus in diam. Cras.</p>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 text-center">
+							<a href="article-type.html"><img src="pictures/movie.jpg" alt="movie"></a>
+							<a href="article-type.html"><h5>Choix des films</h5></a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet,
+							sapien quis laoreet suscipit, sapien augue molestie velit, ut feugiat est metus in diam. Cras.</p>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 text-center">
+							<a href="article-type.html"><img src="pictures/guy.jpg" alt="some-guy"></a>
+							<a href="article-type.html"><h5>Un nouveau partenaire</h5></a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet,
+							sapien quis laoreet suscipit, sapien augue molestie velit, ut feugiat est metus in diam. Cras.</p>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3 text-center">
+							<a href="article-type.html"><img src="pictures/old-theater.jpg" alt="theater"></a>
+							<a href="article-type.html"><h5>Paris et le cinéma</h5></a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet,
+							sapien quis laoreet suscipit, sapien augue molestie velit, ut feugiat est metus in diam. Cras.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--Fourth section - redirecting to contact page -->
+			<section class="contact-section text-center">
+				<div class="row">
+					<div class="col-xs-offset-2 col-xs-8">
+						<div class="row">
+							<div class="col-xs-12 col-sm-3">
+								<h3><span class="glyphicon glyphicon-envelope"> </span> Une Question&nbsp;?</h3>
+							</div>
+							<div class="col-xs-12 col-sm-6">
+								<p>Notre équipe se tient à votre disposition pour vous répondre&nbsp;!</p>
+							</div>
+							<div class="col-xs-12 col-sm-3">
+								<a href="contact.html"><span class="btn btn-primary">C'est par ici&nbsp;!</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--Fifth section - Partners-->
+			<section class="partners-section text-center row">
+				<div class="col-xs-offset-1 col-xs-10">
+					<h3>Nos partenaires</h3>
+					<div class="row">
+						<div class="col-xs-6 col-md-2">
+							<a href="https://www.google.com/teapot"><img src="pictures/partner1.jpg" alt="cinema-logo"></a>
+						</div>
+						<div class="col-xs-6 col-md-2">
+							<a href="https://www.google.com/teapot"><img src="pictures/partner2.jpg" alt="tree-logo"></a>
+						</div>
+						<div class="col-xs-6 col-md-2">
+							<a href="https://www.paris.fr/"><img src="pictures/partner3.jpg" alt="logo-paris"></a>
+						</div>
+						<div class="col-xs-6 col-md-2">
+							<a href="http://www.brasserie-du-bouffay.com/"><img src="pictures/partner4.jpg" alt="logo-bouffay"></a>
+						</div>
+						<div class="col-xs-6 col-md-2">
+							<a href="https://www.iledefrance.fr/"><img src="pictures/partner5.jpg" alt="logo-region"></a>
+						</div>
+						<div class="col-xs-6 col-md-2">
+							<a href="http://www.aperturescience.com/"><img src="pictures/partner6.jpg" alt="logo-aperture"></a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Footer section -->
+			<footer class="row text-center">
+				<div class="col-xs-offset-2 col-xs-8 footer-section">
+					<div class="col-xs-12 col-md-4 link-section">
+						<ul>
+							<li><a href="index.html">Accueil</a></li>
+							<li><a href="festival.html">Le Festival</a></li>
+							<li><a href="movies.html">Programmation</a></li>
+							<li><a href="news.html">Actualités</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="mentions.html">Mentions légales</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 hidden-sm hidden-xs logo-section">
+						<img src="pictures/logo.png" alt="logo" class="logo">
+					</div>
+					<div class="col-md-4 col-xs-12  social-section">
+						<a href="https://www.facebook.com/"><div class="btn btn-primary"><span class="fa fa-facebook"></span></div></a>
+						<a href="https://twitter.com/?lang=fr"><div class="btn btn-primary"><span class="fa fa-twitter"></span></div></a>
+						<a href="https://www.google.fr/"><div class="btn btn-primary"><span class="fa fa-google"></span></div></a>
+						<a href="https://www.instagram.com/?hl=fr"><div class="btn btn-primary"><span class="fa fa-instagram"></span></div></a>
+					</div>
+				</div>
+			</footer>
+		</div><!--End of Bootsrap page container-->
+		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    	 integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    	 crossorigin="anonymous"></script>
+    	<script src="js/custom.js"></script>
+	</body>
+</html>
