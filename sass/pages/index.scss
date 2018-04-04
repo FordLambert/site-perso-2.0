@@ -44,62 +44,33 @@ h3 {
     background-color: $light-blue;
     height: 100vh;
 
-    .filter-box {
-        height: 30%;
-    }
-
     .projects {
         margin-top: 8vh;
     }
 
     .projects-box {
         height: 60%;
+    }
 
-        .project-button {
+    .btn:hover {
+        box-shadow: 4px 4px 4px $black;
+    }
+
+    .btn {
+        background-color: $orange;
+        border: 1px solid $black;
+        height: 100%;
+        width: 100%;
+        color: $white;
+
+        p {
+            margin: 0;
+        }
+
+        .project-logo {
             height: 10vh;
+            margin-top: 5vh;
+            margin-bottom: 5vh;
         }
-
-        .btn {
-            background-color: $orange;
-            border: 1px solid $black;
-            height: 100%;
-            width: 100%;
-            color: $white;
-            -webkit-transition: -webkit-transform 1.00s ease-in-out;
-                    transition:         transform 1.00s ease-in-out;
-
-            p {
-                margin: 0;
-            }
-        }
-
-        .project-button:hover {
-            .front {
-                transform: rotateY(180deg);
-            } .back {
-                transform: rotateY(0deg);
-            }
-        }
-
-        .front {
-            backface-visibility: hidden;
-            z-index: 100;
-            position: absolute;
-            right: 0px;
-        }
-
-        .back {
-            backface-visibility: hidden;
-            z-index: 50;
-            transform: rotateY(-180deg);
-            position: absolute;
-            right: 0px;
-
-            img {
-                height: 90%;
-            }
-        }
-
-
     }
 }

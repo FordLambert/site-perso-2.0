@@ -1,0 +1,129 @@
+.main-section {
+	min-height: 100vh;
+
+	.themed-colored {
+		color: $light-green;
+	}
+
+	#map-container {
+		height: 80vh;
+		width: 100%;
+		position: relative;
+
+		@include media-breakpoint-up(md) {
+			height: 35vh;
+			width: 100%;
+		}
+
+		#map {
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			top: 0px;
+		}
+	}
+
+	.restaurant-infos-menu {
+		border-bottom: 1px solid $light-grey;
+		height: 70vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		@include media-breakpoint-up(sm) {
+			height: 50vh;
+		}
+
+		@include media-breakpoint-up(md) {
+			height: 30vh;
+			font-size: $text-md-font-size;
+		}
+
+		@include media-breakpoint-up(xl) {
+			height: 20vh;
+		}
+
+		p {
+			margin: 4px;
+		}
+
+		button {
+			margin-bottom: 1vh;
+		}
+
+		.banner-guide {
+			z-index: 5;
+			opacity: 1;
+		}
+	}
+
+	.restaurant-section {
+		overflow-x: hidden;
+		height: 100vh;
+
+		@include media-breakpoint-up(md) {
+			height: 35vh;
+			overflow-y: auto;
+		}
+
+		@include media-breakpoint-up(xl) {
+			height: 45vh;
+		}
+
+		/*The following is here to hide the x scrollbar*/
+		.restaurant-section {
+			@include media-breakpoint-up(lg) {
+				height: 100%;
+				width: 100%;
+				overflow: hidden;
+			}
+		}
+		
+		.restaurant-list {
+			width: 106%;
+			height: 100%;
+			overflow-y: scroll;
+			padding-right: 17px;
+		}
+		/*End of rules to hide the x scrollbar*/
+
+		ul {
+			padding: 0px;
+
+			.restaurant {
+				list-style-type: none;
+				padding: 20px;
+				padding-bottom: 10px;
+				margin-top: 8.3vw;
+				border: 1px solid $light-grey;
+
+				@include media-breakpoint-up(lg) {
+					margin-left: 3.45vw;
+					margin-top: 3.45vw;
+				}
+
+				p {
+					font-size: $text-md-font-size;
+				}
+	
+				a, label {
+					margin: 1vh;
+				}
+
+				h2 {
+					font-size: $title-md-font-size;
+					color: $light-green;
+				}
+
+				.trigger-button {
+					margin-top: 3vh;
+
+					@include media-breakpoint-up(md) {
+						margin-top: 0vh;
+					}
+				}
+			}
+		}
+	}
+}
