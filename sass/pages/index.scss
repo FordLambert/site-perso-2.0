@@ -54,6 +54,11 @@ h3 {
         align-items: center;
     }
 
+    li {
+        color: $white;
+        list-style-type: none;
+    }
+
     .skill-box:hover {
         img {
             transform: rotateY(180deg) scaleX(-1);
