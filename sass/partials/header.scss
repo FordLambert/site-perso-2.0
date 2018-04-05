@@ -1,6 +1,32 @@
 header {
-    background-image: url('../resources/pictures/coffeBanner.png');
+
+    background-color: $code-editor-grey;
     height: 40vh;
+
+    @include media-breakpoint-down(sm) {
+        h1, h2 {
+            font-size: 1.5em;
+        }
+
+        img {
+            
+        }
+    }
+
+    @include media-breakpoint-up(sm) {
+        background-image: url('../resources/pictures/coffeBanner.png');
+        //height: 40vh;
+
+        /*.header-titles {
+            height: 75%;
+        }
+        */
+
+        .portrait-box {
+            height: 75%;
+        }
+    }
+
 
     .header-titles {
         height: 75%;
@@ -8,9 +34,5 @@ header {
 
     .colin-portrait {
         border-radius: 50%;
-    }
-
-    .portrait-box {
-        height: 75%;
     }
 }

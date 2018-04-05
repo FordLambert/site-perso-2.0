@@ -4,16 +4,33 @@ h3 {
 
 .intro-section {
     background-color: $light-blue;
-    height: 60vh;
+    //height: 100vh;
 
     .intro-text {
-        font-size: 1.1em;
+        font-size: 0.9em;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
+
+    @include media-breakpoint-up(xl) {
+        height: 60vh;
+
+        .intro-text {
+            font-size: 1.1em;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    }
+
 }
 
 .skills-section {
-    height: 100vh;
+    
     background-color: $dark-blue;
+
+    @include media-breakpoint-up(xl) {
+        height: 100vh;
+    }
 
     .skill-row {
         margin-top: 10vh;
@@ -23,6 +40,14 @@ h3 {
         img {
             -webkit-transition: -webkit-transform 1.00s ease-in-out;
                     transition:         transform 1.00s ease-in-out;
+
+            margin-top: 5vh;
+            margin-bottom: 5vh;
+
+            @include media-breakpoint-up(xl) {
+                margin-top: 0vh;
+                margin-bottom: 0vh;
+            }
         }
 
         display: flex;
@@ -42,7 +67,15 @@ h3 {
 
 .projects-section {
     background-color: $light-blue;
-    height: 100vh;
+
+    .project-button {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    @include media-breakpoint-up(xl) {
+        height: 100vh;
+    }
 
     .projects {
         margin-top: 8vh;

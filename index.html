@@ -6,8 +6,7 @@
         <title>Colin Lambert</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="icon" href="resources/pictures/favicon.png" />
         <link rel="stylesheet" type="text/css" media="screen" href="dist/styles.css" />
     </head>
     <body>
@@ -15,27 +14,47 @@
 
             <header class="row">
                 <a name="#A1"></a>
-                <div class="header-titles offset-6 col-3 d-flex align-items-center text-center">
-                    <div class="row">
+                <div class="header-titles col-12 offset-sm-6 col-sm-3 d-flex align-items-center">
+                    <div class="row text-center">
                         <h1 class="col-12">Colin Lambert</h1>
-                        <h2 class="col-12">Développeur Front-End</h2>
+                        <h2 class="col-12">Développeur Front&nbsp;End</h2>
                     </div>
                 </div>
 
-                <div class="col-2 d-flex align-items-center portrait-box">
-                    <img src="./resources/pictures/colin.jpg" alt="colin-portrait" class="colin-portrait img-fluid col-8">
+                <div class="col-sm-2 d-flex align-items-center portrait-box d-none d-sm-block">
+                    <img src="./resources/pictures/colin.jpg" alt="colin-portrait" class="colin-portrait img-fluid col-sm-8 d-none d-sm-block">
                 </div>
 
-                <nav class="col-12 d-flex align-items-center text-center">
+                <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+                </nav>
+
+                <!--
+                <nav class="col-12 d-flex align-items-center text-center navbar">
                     <div class="col-12">
                         <div class="row">
 
-                            <div class="col-2">
-                                <div class="link offset-3 col-6">
-                                    <a href="">Profil</a>
-                                </div>
-                            </div>
-                            <div class="col-2">
+                            <div class="offset-1 col-2">
                                 <div class="link offset-3 col-6">
                                     <a href="">Compétences</a>
                                 </div>
@@ -64,6 +83,7 @@
                         </div>
                     </div>
                 </nav>
+            -->
             </header>
 
             <section class="intro-section row d-flex align-items-center">
@@ -94,50 +114,65 @@
             <section class="skills-section row">
                 <a name="#A2"></a>
                 <div class="offset-1 col-10 skills text-center">
-                    <h3>Domaines de compétences</h3>
+                    <h3><span class="d-none d-sm-block">Domaines de </span>compétences</h3>
 
                     <div class="skills-list row">
+
+                        <div class="col-12 d-block d-sm-none">
+                            <ul>
+                                <li>Bootstrap 4</li>
+                                <li>CSS 3</li>
+                                <li>Responsive design</li>
+                                <li>Sass</li>
+                                <li>Less</li>
+                                <li>JavaScript</li>
+                                <li>O.O.P.</li>
+                                <li>React</li>
+                                <li>Gulp</li>
+                                <li>Ruby</li>
+                            </ul>
+                        </div>
                         
 
-                        <div class="col-12">
+                        <div class="col-12 d-none d-sm-block">
                             <div class="row justify-content-around skill-row">
-                                <div class="skill-box col-2">
+                                <div class="skill-box col-sm-4 col-md-3 col-xl-2">
                                     <img src="resources/pictures/bootstrap.png" alt="bootstrap-logo" title="Bootstrap 4" class="col-12"/>
                                 </div>
 
-                                <div class="skill-box col-2">
+                                <div class="skill-box col-sm-4 col-md-3 col-xl-2">
                                     <img src="resources/pictures/css.png" alt="css-logo" title="CSS 3" class="col-12"/>
                                 </div>
 
-                                <div class="skill-box col-2">
+                                <div class="skill-box col-sm-4 col-md-3 col-xl-2">
                                     <img src="resources/pictures/responsive.png" alt="responsive-design-logo" title="Responsive design" class="col-12"/>
                                 </div>
 
-                                <div class="skill-box col-2">
+                                <div class="skill-box col-sm-4 col-md-3 col-xl-2">
                                     <img src="resources/pictures/sass.png" alt="sass-logo" title="Sass" class="col-12"/>
                                 </div>
 
-                                <div class="skill-box col-2">
+                                <div class="skill-box col-sm-4 col-md-3 col-xl-2">
                                     <img src="resources/pictures/less.png" alt="less-logo" title="Less" class="col-12"/>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-12">
+                        <div class="col-12 d-none d-sm-block">
                             <div class="row  justify-content-around skill-row">
-                                <div class="skill-box col-2">
+                                <div class="skill-box col-sm-4 col-md-3 col-xl-2">
                                     <img src="resources/pictures/javascript.png" alt="javascript-logo" title="JavaScript" class="col-12"/>
                                 </div>
-                                <div class="skill-box col-2">
+                                <div class="skill-box col-sm-4 col-md-3 col-xl-2">
                                     <img src="resources/pictures/oop.png" alt="oop-logo" title="Object Oriented Programming" class="col-12"/>
                                 </div>
-                                <div class="skill-box col-2">
+                                <div class="skill-box col-sm-4 col-md-3 col-xl-2">
                                     <img src="resources/pictures/react.png" alt="react-logo" title="React" class="col-12"/>
                                 </div>
-                                <div class="skill-box col-2">
+                                <div class="skill-box col-sm-4 col-md-3 col-xl-2">
                                     <img src="resources/pictures/gulp.png" alt="gulp-logo" title="Gulp" class="col-12"/>
                                 </div>
-                                <div class="skill-box col-2">
+                                <div class="skill-box col-sm-4 col-md-3 col-xl-2">
                                     <img src="resources/pictures/ruby.png" alt="ruby-logo" title="Ruby" class="col-12"/>
                                 </div>
                             </div>
@@ -157,7 +192,7 @@
                         <div class="col-12">
                             <div class="row justify-content-around">
 
-                                <div class="project-button col-2">
+                                <div class="project-button col-12 col-md-6 col-lg-4 col-xl-3">
                                     <a href="projects/p3/index.html">
                                         <div class="row btn text-center">
                                             <p>
@@ -165,8 +200,8 @@
                                                 <br/>
                                                 Films en plein air
                                             </p>
-                                            <div class="offset-2 col-8 project-logo">
-                                                <img src="resources/pictures/p3-logo.png" alt="cinema-logo" class="img-fluid">
+                                            <div class="offset-2 col-8 offset-md-4 col-md-4 project-logo d-none d-md-block">
+                                                <img src="resources/pictures/p3-logo.png" alt="cinema-logo" class="img-fluid d-none d-md-block">
                                             </div>
                                             <div class="row justify-content-around">
                                                 <p>Css - Less</p>
@@ -175,7 +210,7 @@
                                     </a>
                                 </div>
 
-                                <div class="project-button col-2">
+                                <div class="project-button col-12 col-md-6 col-lg-4 col-xl-3">
                                     <a href="projects/p5/index.html">
                                         <div class="row btn text-center">
                                             <p>
@@ -183,8 +218,8 @@
                                                 <br/>
                                                 Quotes generator
                                             </p>
-                                            <div class="offset-2 col-8 project-logo">
-                                                <img src="resources/pictures/p5-logo.png" alt="dices-logo" class="img-fluid">
+                                            <div class="offset-2 col-8 offset-md-4 col-md-4 project-logo d-none d-md-block">
+                                                <img src="resources/pictures/p5-logo.png" alt="dices-logo" class="img-fluid d-none d-md-block">
                                             </div>
                                             <div class="row justify-content-around">
                                                 <p>JavaScript</p>
@@ -194,7 +229,7 @@
                                     </a>
                                 </div>
 
-                                <div class="project-button col-2">
+                                <div class="project-button col-12 col-md-6 col-lg-4 col-xl-3">
                                     <a href="projects/p6/index.html">
                                         <div class="row btn text-center">
                                             <p>
@@ -202,8 +237,8 @@
                                                 <br/>
                                                 Board game
                                             </p>
-                                            <div class="offset-2 col-8 project-logo">
-                                                <img src="resources/pictures/p6-logo.png" alt="axe-logo" class="img-fluid">
+                                            <div class="offset-2 col-8 offset-md-4 col-md-4 project-logo d-none d-md-block">
+                                                <img src="resources/pictures/p6-logo.png" alt="axe-logo" class="img-fluid d-none d-md-block">
                                             </div>
                                             <div class="row justify-content-around">
                                                 <p>JavaScript - Less - JQuery</p>
@@ -212,7 +247,7 @@
                                     </a>
                                 </div>
 
-                                <div class="project-button col-2">
+                                <div class="project-button col-12 col-md-6 col-lg-4 col-xl-3">
                                     <a href="projects/p7/index.html">
                                         <div class="row btn text-center">
                                             <p>
@@ -220,8 +255,8 @@
                                                 <br/>
                                                 Google-Miam
                                             </p>
-                                            <div class="offset-2 col-8 project-logo">
-                                                <img src="resources/pictures/p7-logo.png" alt="restaurant-logo" class="img-fluid">
+                                            <div class="offset-2 col-8 offset-md-4 col-md-4 project-logo d-none d-md-block">
+                                                <img src="resources/pictures/p7-logo.png" alt="restaurant-logo" class="img-fluid d-none d-md-block">
                                             </div>
                                             <div class="row justify-content-around">
                                                 <p>Sass - API - React</p>
@@ -230,7 +265,7 @@
                                     </a>
                                 </div>
 
-                                <div class="project-button col-2">
+                                <div class="project-button col-12 col-md-6 col-lg-4 col-xl-3">
                                     <a href="#">
                                         <div class="row btn text-center">
                                             <p>
@@ -238,11 +273,11 @@
                                                 <br/>
                                                 Citabox
                                             </p>
-                                            <div class="offset-2 col-8 project-logo">
-                                                <img src="resources/pictures/citabox-logo.png" alt="quote-logo" class="img-fluid">
+                                            <div class="offset-2 col-8 offset-md-4 col-md-4 project-logo d-none d-md-block">
+                                                <img src="resources/pictures/citabox-logo.png" alt="quote-logo" class="img-fluid d-none d-md-block">
                                             </div>
                                             <div class="row justify-content-around">
-                                                <p>Ruby in Rails</p>
+                                                <p>Ruby on Rails</p>
                                             </div>
                                         </div>
                                     </a>
