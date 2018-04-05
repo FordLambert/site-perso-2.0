@@ -1,38 +1,36 @@
 header {
 
     background-color: $code-editor-grey;
-    height: 40vh;
 
     @include media-breakpoint-down(sm) {
+
         h1, h2 {
             font-size: 1.5em;
         }
-
-        img {
-            
-        }
     }
 
-    @include media-breakpoint-up(sm) {
+    @include media-breakpoint-up(md) {
         background-image: url('../resources/pictures/coffeBanner.png');
-        //height: 40vh;
+        height: 40vh;
 
-        /*.header-titles {
+        .header-titles {
             height: 75%;
-        }
-        */
-
-        .portrait-box {
-            height: 75%;
-        }
+        } 
     }
-
 
     .header-titles {
-        height: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        @include media-breakpoint-down(sm) {
+            margin-top: 5vh;
+            margin-bottom: 5vh;
+        }
     }
 
     .colin-portrait {
         border-radius: 50%;
+        width: 100%;
     }
 }

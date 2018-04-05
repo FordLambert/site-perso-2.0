@@ -29,7 +29,7 @@ h3 {
     background-color: $dark-blue;
 
     @include media-breakpoint-up(xl) {
-        height: 100vh;
+        //height: 100vh;
     }
 
     .skill-row {
@@ -46,7 +46,7 @@ h3 {
 
             @include media-breakpoint-up(xl) {
                 margin-top: 0vh;
-                margin-bottom: 0vh;
+                margin-bottom: 10vh;
             }
         }
 

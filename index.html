@@ -14,39 +14,52 @@
 
             <header class="row">
                 <a name="#A1"></a>
-                <div class="header-titles col-12 offset-sm-6 col-sm-3 d-flex align-items-center">
-                    <div class="row text-center">
+                <div class="header-titles col-12 offset-md-6 col-md-6 col-lg-4 text-center">
+                    <div>
                         <h1 class="col-12">Colin Lambert</h1>
                         <h2 class="col-12">Développeur Front&nbsp;End</h2>
                     </div>
                 </div>
 
-                <div class="col-sm-2 d-flex align-items-center portrait-box d-none d-sm-block">
-                    <img src="./resources/pictures/colin.jpg" alt="colin-portrait" class="colin-portrait img-fluid col-sm-8 d-none d-sm-block">
+                <div class="col-lg-2 d-flex align-items-center">
+                    <div class="portrait-box">
+                        <img src="./resources/pictures/colin.jpg" alt="colin-portrait" class="colin-portrait col-lg-12 col-xl-8 d-none d-lg-block">
+                    </div>
                 </div>
 
-                <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Disabled</a>
-                        </li>
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>
+                <nav class="navbar navbar-expand-lg">
+                    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <div class="offset-1 col-2">
+                                <div class="link offset-3 col-6">
+                                    <a class="nav-item nav-link active" href="#">Compétences<span class="sr-only">(current)</span></a>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="link offset-3 col-6">
+                                    <a class="nav-item nav-link" href="#">Travaux</a>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="link offset-3 col-6">
+                                    <a class="nav-item nav-link" href="#">Github</a>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="link offset-3 col-6">
+                                    <a class="nav-item nav-link" href="#">Linkedin</a>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="link offset-3 col-6">
+                                    <a class="nav-item nav-link" href="#">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </nav>
 
                 <!--
@@ -56,27 +69,27 @@
 
                             <div class="offset-1 col-2">
                                 <div class="link offset-3 col-6">
-                                    <a href="">Compétences</a>
+                                    <a class="nav-item nav-link active" href="#">Compétences<span class="sr-only">(current)</span></a>
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="link offset-3 col-6">
-                                    <a href="">Travaux</a>
+                                    <a class="nav-item nav-link" href="#">Travaux</a>
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="link offset-3 col-6">
-                                    <a href="">Github</a>
+                                    <a class="nav-item nav-link" href="#">Github</a>
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="link offset-3 col-6">
-                                    <a href="">Linkedin</a>
+                                    <a class="nav-item nav-link" href="#">Linkedin</a>
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="link offset-3 col-6">
-                                    <a href="">Contact</a>
+                                    <a class="nav-item nav-link" href="#">Contact</a>
                                 </div>
                             </div>
 
@@ -301,6 +314,8 @@
         src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
         <script src="dist/scripts.min.js"></script>
     </body>
 </html>
