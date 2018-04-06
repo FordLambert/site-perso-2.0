@@ -39,8 +39,11 @@ nav {
 
     }
     
-
     .navbar-toggler {
         border-color: $orange;
+    }
+
+    .navbar-row, .navbar-nav {
+        width: 100%;
     }
 }

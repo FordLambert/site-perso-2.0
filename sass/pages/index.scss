@@ -4,7 +4,6 @@ h3 {
 
 .intro-section {
     background-color: $light-blue;
-    //height: 100vh;
 
     .intro-text {
         font-size: 0.9em;
@@ -16,7 +15,7 @@ h3 {
         height: 60vh;
 
         .intro-text {
-            font-size: 1.1em;
+            font-size: 1em;
             margin-top: 0px;
             margin-bottom: 0px;
         }
@@ -25,12 +24,7 @@ h3 {
 }
 
 .skills-section {
-    
     background-color: $dark-blue;
-
-    @include media-breakpoint-up(xl) {
-        //height: 100vh;
-    }
 
     .skill-row {
         margin-top: 10vh;
@@ -52,6 +46,10 @@ h3 {
 
         display: flex;
         align-items: center;
+    }
+
+    ul {
+        padding-left: 0px;
     }
 
     li {
